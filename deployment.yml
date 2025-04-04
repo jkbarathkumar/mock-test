@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: sample-app
-        image: <dockerhub-username>/sample-app:latest
+        image: barathkumar29/helloworld-python:v1
         ports:
         - containerPort: 5000
